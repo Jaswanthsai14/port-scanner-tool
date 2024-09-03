@@ -94,7 +94,7 @@ elif choice == 3:
                 print(i, "port is open")
             s.close()
         pyfiglet.print_figlet(text="Happy Hacking", colors="BLUE")
-        print(text3)
+        
     except KeyboardInterrupt:
         print("Something interrupted by you")
         sys.exit()
