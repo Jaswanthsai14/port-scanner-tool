@@ -22,7 +22,7 @@ print("-" * 50)
 print("Press 1 for scanning specific ports")
 print("Press 2 for scanning popular ports")
 print("Press 3 for scanning specific range of ports")
-print("Press 4 for scanning all ports")
+
 choice = int(input("Enter your choice: "))
 
 if choice == 1:
